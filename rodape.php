@@ -1,0 +1,1 @@
+<p class="direitos">&copy; holderdotempo.com.br</p>

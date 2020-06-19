@@ -1,0 +1,48 @@
+/*Arquivo css - formatação do site*/
+*{
+    padding: 0;
+    margin: 0;
+    font-size:18px;
+    text-decoration: none;
+    color:#333;
+    list-style: none;
+}*
+
+body{
+    background-color:#111;
+}
+#geral {width: 100%; height: auto; overflow:hidden; margin:0 auto;flex-shrink:1 }
+#topo{width: 100%; height: 200px; float: left; background-color: #FFF;flex-shrink:1}
+.logo{width: 200px; height: 180px; float: center;margin: 10px;}
+.links_top{float: right;padding: 10px; margin: 5px 2px;background-color: rgba(); color: #FFF;}
+.links_top:hover{background-color: #59f;}
+#menu{width: 100%; height: 50px; float: left; background-color: #0B0B61;flex-shrink:1}
+.links_menu li a{float: left;padding: 15px; background-color:#0B0B61; color:#FFF;}
+.links_menu li a:hover{background-color: #59f;}
+#conteudo{width: 100%; min-height: 300px; float: left; background-color: #FFF; padding-bottom:20px; flex-shrink:1}
+#conteudo2{width: 100%; min-height: 300px; float: left; background-color: #FFF; padding-bottom:20px; flex-shrink:1}
+#conteudo_principal{width: 70%; height: 100%; float: left; flex-shrink:1}
+
+#recentes{width: 26%; min-height: 600px; float: left; border: 1px solid #CCC;flex-shrink:1}
+.postagens a{width: 100%; height: auto; overflow: hidden; float: left; margin: 10 0 30px 0;display: inline-block;}
+.titulos {font-size: 26px; font-family: calibri, sans-serif;float: left;width: 96%;margin:5px 0 0px 60px;}
+.titulos2 {font-size: 16px; font-family: calibri, sans-serif;float: center;width: 96%; margin:5px 0 0px 30px;}
+.imagem{width: 50%; height: auto; overflow:hidden; margin:5px 0 0 40px;border: 1px solid #CCC; display: inline;}
+
+.paragrafo,.data{font-size: 16px; color: #111; width: 96%;font-family: calibri, sans-serif; margin:0px 50px; display: inline-block;}
+.postagens_recentes{width: 100%; height: auto; overflow: hidden; float: left; margin: 0 0 40px 0;border: 0px solid grey; padding: 5px;}
+.titulos:hover{background-color: #59f; display: inline;}
+
+/*#conteudo_principal {padding: 5px; float: center; background-color:#CCC ; margin:0px 0 0 5px;}*/
+#conteudo_principal {padding: 5px; float: center; background-color:white ; margin:0px 0 0 5px;flex-shrink:1}
+/*#conteudo_principal a:hover{background-color: #59f;}*/
+.campos,.campos_cad,#botoes,.botoes{width: 80%; margin: 10px 10%; min-height: 30px; float: left;padding: 2px;font-size: 16px;}
+.campo2{width: 80%; margin: 10px 10%;min-height: 150px; float: left;padding: 2px;}
+.bt_enviar{float: left; margin-left: 10%;padding: 5px; font-size: 16px;}
+.legenda{float: left; margin-left: 10%; font-size: 16px;}
+#box_form,#box_log{width: 80%; min-height: 300px; background-color: #FFF; margin: 40px auto;overflow:hidden}/*elementos q estao passando da div n passarao com esse overflow*/
+.bt_cad{float: left;font-size: 16px; padding: 5px;margin-right: 5px;padding: 2px;}
+.form_link{color:#59f; font-size: 16px; float: left;}
+.p_form{color:#333; font-size: 16px; float: left;width: 100%}
+#rodape{width: 100%; height: 50px; float: left; background-color: #DDD}
+.direitos{text-overflow:hidden; text-align:center;}
